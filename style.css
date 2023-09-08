@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("backimg.png");
+  background-size: cover; /* Adjust the image size as needed */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  background-attachment: fixed;
+}
+
+.clock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 244px;
+}
+
+@media (max-width: 720px) {
+  .clock {
+    font-size: 100px;
+  }
+}
+@media (min-width: 1024px) {
+  .clock {
+    font-size: 150px;
+  }
+}
+@media (min-width: 1344px) {
+  .clock {
+    font-size: 244px;
+  }
+}
